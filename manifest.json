@@ -4,8 +4,11 @@
   "description": "Extract event data from text. Open new, Google Calendar event creation tab with prepopulated data.",
   "manifest_version": 2,
   "background": {
-    "scripts": ["main.js"]
-  },  
+    "scripts": [
+      "bower_components/chrono/chrono.min.js",
+      "main.js"
+    ]
+  },
   "permissions": [
     "contextMenus",
     "tabs",

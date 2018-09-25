@@ -1,0 +1,23 @@
+{
+  "name": "add-to-gcal",
+  "homepage": "https://github.com/azylinski/add-to-gcal",
+  "authors": [
+    "@ArturZylinski"
+  ],
+  "description": "Extract event data from text. Open new, Google Calendar event creation tab with prepopulated data.",
+  "main": "main.js",
+  "keywords": [
+    "gcal"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "chrono": "^1.3.1"
+  }
+}
